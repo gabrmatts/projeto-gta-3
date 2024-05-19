@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1080px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header {
+  background-color: black;
+  width: 100%;
+  padding: 10px;
+  font-family: sans-serif;
+}
+
+.logo, .socais {
+  width: 25%;
+}
+
+.logo img {
+  width: 50px;
+  cursor: pointer;
+}
+
+.menu {
+  width: 50%;
+}
+
+.menu nav a  {
+  color: white;
+  text-decoration: none;
+  padding-right: 30px;
+  font-size: 18px;
+}
+
+.menu nav a::after {
+  contain: " ";
+  width: 30px;
+  height: 4px;
+  background-image: linear-gradient(45deg, pink white);
+  position: absolute;
+  top: 30px;
+  left: 0;
+}
+
+.menu nav a:hover::after {
+  width: 30px;
+}
+
+.sociais button {
+  width: 40px;
+  height: 30px;
+  background-image: linear-gradient(45deg, pink white);
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.sociais button i {
+  font-size: 20px;
+}
