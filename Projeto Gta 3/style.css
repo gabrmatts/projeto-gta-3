@@ -5,21 +5,21 @@
 }
 
 .container {
-  max-width: 1080px;
+  /* max-width: 1080px; */
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 header {
   background-color: black;
   width: 100%;
-  padding: 10px;
+  padding: 8px;
   font-family: sans-serif;
 }
 
-.logo, .socais {
+ .socais {
   width: 25%;
 }
 
@@ -29,17 +29,22 @@ header {
 }
 
 .menu {
-  width: 50%;
+  /* width: 50%; */
+  text-align: left;
+  /* background-color: antiquewhite; */
 }
 
-.menu nav a  {
+.menu nav a {
   color: white;
   text-decoration: none;
-  padding-right: 30px;
+  padding: 15px;
   font-size: 18px;
 }
+.menu nav a:hover {
+  border-bottom: 1px solid gray;
+}
 
-.menu nav a::after {
+/* .menu nav a::after {
   contain: " ";
   width: 30px;
   height: 4px;
@@ -47,22 +52,34 @@ header {
   position: absolute;
   top: 30px;
   left: 0;
-}
+} */
 
-.menu nav a:hover::after {
+/* .menu nav a:hover::after {
   width: 30px;
-}
+} */
 
 .sociais button {
-  width: 40px;
-  height: 30px;
-  background-image: linear-gradient(45deg, pink white);
+  /* width: 40px; */
+  /* height: 30px; */
+  /* background-image: linear-gradient(45deg, pink white); */
+  background-color: #0016e000;
   border: none;
   border-radius: 8px;
   cursor: pointer;
-  margin-right: 10px;
+  margin: 0 5px;
+  filter: drop-shadow(0 0 11px #ffffff60);
+  transition: 0.4s;
+}
+.sociais button:hover {
+  filter: drop-shadow(0 0 12px #ffffffc5);
+  transition: 0.4s;
+}
+.sociais button img{
+  width: 34px;
+  border-bottom: 1px solid rgb(126, 126, 126);
+  
 }
 
-.sociais button i {
+/* .sociais button i {
   font-size: 20px;
-}
+} */
