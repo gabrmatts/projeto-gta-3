@@ -1,0 +1,108 @@
+body {
+    font-family:  Courier, sans-serif;
+    background-color: black;
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    color: #ffffff;
+    text-align: center;
+}
+
+.background {
+    background-image: url(https://images2.alphacoders.com/134/1343198.png);
+    background-position: center;
+    background-size: cover;
+}
+.card {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.card > form  {
+    background-color: #000000b4;
+    color: white;
+    max-width: min-content;
+    
+    margin-bottom: 16px;
+    padding: 14px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    border: 1px solid #ccccccb9;
+    box-shadow: 0 0 12px #00000071;
+}
+.card form h1 {
+    margin: 0px;
+    text-shadow: 0 0 10px #0000004d;
+}
+.card form p {
+    margin: 5px 0 16px;
+}
+.card form img {
+    width: 100px;
+    border-radius: 10px;
+}
+input::placeholder {
+    color: white;
+}
+input.nome, input.email, input.senha, input.senha-confirmar  {
+    border-radius: 15px;
+    border: none;
+    width: 250px;
+    height: 40px;
+    padding-left: 15px;
+    background-color: #292929;
+    color: #ffffff;
+    margin: 3px 0px;
+    box-shadow: 0 0 4px #00000048;
+    border: 1px solid #5c5c5c83;
+}
+
+.card > p {
+    text-align: center;
+    background-color: #00000048;
+    border-radius: 10px;
+    padding: 6px;
+}
+
+input.criar-conta {
+    background-color: #444444;
+    color: #ffffff;
+    width: 130px;
+    height: 30px;
+    margin-top: 7px;
+
+    cursor: pointer;
+    border-radius: 80px;
+    text-align: center;
+    justify-content: center;
+    border: none;
+    font-family: sans-serif;
+}
+.logar {
+    font-family: sans-serif;
+}
+.logar a {
+    color: #f0f8ff;
+}
+.logar a:hover {
+    color: #d6dce2;
+}
+
+.rodape {
+    color: #ffffff;
+    padding: 10px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-shadow: 0px 0px 10px #000000;
+    text-align: center;
+}
