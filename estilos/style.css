@@ -83,6 +83,39 @@ header {
   border-bottom: 2px solid #fff;
 }
 
+/* BOOTSTRAP CABEÇALHO - Inicio */
+.navbar {
+  padding: 0 !important;
+}
+.navbar-toggler {
+  background-color: white !important;
+}
+
+.container-fluid {
+  background-color: #0f041d !important;
+}
+
+.container-fluid .logo{
+  width: 50px;
+}
+
+.nav-item .nav-link {
+  color: white !important;
+}
+.navbar-text {
+  /* background-color: #e8e8e8; */
+  text-align: right !important;
+  width: 100%;
+  margin: auto;
+  display: block;
+}
+.navbar-text a img{
+  width: 36px !important;
+  margin: auto 5px;
+}
+
+/* BOOTSTRAP CABEÇALHO - Fim */
+
 .home {
   display: flex;
   position: relative;
@@ -96,7 +129,7 @@ header {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: linear-gradient(90deg, rgba(0, 0, 0, .85), rgba(0, 0, 0, .7) 35%, transparent 65%);
+  background: linear-gradient(90deg, #000000d9, #000000b3 35%, transparent 65%);
 }
 
 .home .imagem-fundo {
