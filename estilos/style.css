@@ -154,14 +154,9 @@ header {
   max-width: 150px;
 }
 
-
-.home .informacoes {
-  display: flex;
-  gap: 32px;
-}
-
 .home .informacoes .titulo {
-  font-size: 55px;
+  font-size: 48px;
+  text-shadow: 0 0 8px #0000007a;
 }
 
 .home .informacoes .texto {
